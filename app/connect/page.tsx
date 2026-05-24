@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Sidebar from "@/components/Sidebar";
 import type { Account } from "@/lib/accounts";
@@ -16,7 +16,7 @@ interface TokenStatus {
   expiresAt: number;
 }
 
-export default function ConnectPage() {
+function ConnectPageInner() {
   const searchParams = useSearchParams();
   const successId = searchParams.get("success");
   const errorMsg = searchParams.get("error");
@@ -230,5 +230,20 @@ export default function ConnectPage() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function ConnectPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex min-h-screen">
+        <div className="w-64 bg-white border-r border-slate-100" />
+        <main className="ml-64 flex-1 flex items-center justify-center">
+          <p className="text-slate-400 text-sm">Memuat...</p>
+        </main>
+      </div>
+    }>
+      <ConnectPageInner />
+    </Suspense>
   );
 }

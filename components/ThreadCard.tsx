@@ -14,7 +14,7 @@ interface ThreadCardProps {
   accountId: string;
 }
 
-export default function ThreadCard({ tweet, index, accentColor }: ThreadCardProps) {
+export default function ThreadCard({ tweet, index, accentColor, accountId }: ThreadCardProps) {
   const [expanded, setExpanded] = useState(false);
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
   const [copiedAll, setCopiedAll] = useState(false);
@@ -70,6 +70,16 @@ export default function ThreadCard({ tweet, index, accentColor }: ThreadCardProp
 
         {/* Cover image for thread */}
         <ImageSection imageQuery={tweet.imageQuery} maxImages={2} />
+
+        {/* Post thread button */}
+        <div className="mt-3 pt-3 border-t border-slate-100">
+          <PostButton
+            accountId={accountId}
+            content={tweet.content}
+            isThread
+            threadParts={tweet.threadParts}
+          />
+        </div>
       </div>
 
       {/* Expand/collapse */}

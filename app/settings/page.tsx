@@ -357,10 +357,27 @@ export default function SettingsPage() {
           <div className="bg-slate-800 rounded-2xl p-6 text-white">
             <h3 className="font-semibold mb-3 text-sm">Setup di .env.local (rekomendasi)</h3>
             <div className="bg-slate-900 rounded-xl p-4 font-mono text-xs text-emerald-400 space-y-1">
-              <p className="text-slate-500"># .env.local</p>
+              <p className="text-slate-500"># .env.local — AI & Media</p>
               <p>ANTHROPIC_API_KEY=sk-ant-api-...</p>
               <p>PEXELS_API_KEY=your-pexels-key</p>
+              <p className="pt-2 text-slate-500"># Twitter/X OAuth 2.0 (untuk fitur post langsung)</p>
+              <p>TWITTER_CLIENT_ID=your_client_id</p>
+              <p>TWITTER_CLIENT_SECRET=your_client_secret</p>
+              <p>TWITTER_CALLBACK_URL=http://localhost:3000/api/twitter/callback</p>
             </div>
+            <p className="text-slate-400 text-xs mt-3">
+              Twitter Client ID &amp; Secret: buat app di{" "}
+              <a
+                href="https://developer.twitter.com/en/portal/dashboard"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sky-400 hover:underline"
+              >
+                developer.twitter.com
+              </a>
+              {" "}→ aktifkan OAuth 2.0 dengan scope{" "}
+              <code className="bg-slate-700 px-1 rounded">tweet.read tweet.write users.read offline.access</code>
+            </p>
           </div>
         </div>
       </main>

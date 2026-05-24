@@ -196,9 +196,9 @@ export default function AccountPage({
           <div className="grid grid-cols-2 gap-4">
             {content.tweets.map((tweet, i) =>
               tweet.isThread ? (
-                <ThreadCard key={i} tweet={tweet} index={i} accentColor={account.color} />
+                <ThreadCard key={i} tweet={tweet} index={i} accentColor={account.color} accountId={accountId} />
               ) : (
-                <ContentCard key={i} tweet={tweet} index={i} accentColor={account.color} />
+                <ContentCard key={i} tweet={tweet} index={i} accentColor={account.color} accountId={accountId} />
               )
             )}
           </div>
