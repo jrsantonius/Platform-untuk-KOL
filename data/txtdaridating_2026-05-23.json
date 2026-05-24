@@ -1,0 +1,108 @@
+{
+  "accountId": "txtdaridating",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T04:59:39.480Z",
+  "tweets": [
+    {
+      "id": 1,
+      "content": "cowok yang bilang 'aku ga suka drama' biasanya dia sendiri yang jadi sumber drama itu. pengalaman berbicara bestie.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "couple argument drama relationship"
+    },
+    {
+      "id": 2,
+      "content": "green flag yang sering diabaikan: dia inget hal-hal kecil yang lu ceritain minggu lalu. itu bukan kebetulan, itu effort.",
+      "type": "relatable",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "couple sweet moment listening"
+    },
+    {
+      "id": 3,
+      "content": "orang yang paling susah move on bukan yang paling cinta. tapi yang belum punya jawaban jelas. closure itu penting banget bestie.",
+      "type": "info",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "sad person alone thinking closure"
+    },
+    {
+      "id": 4,
+      "content": "PDKT paling efektif itu bukan sering chat, tapi bikin dia nunggu-nunggu kabar lu. presence itu beda sama availability.",
+      "type": "tips",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "texting phone waiting message"
+    },
+    {
+      "id": 5,
+      "content": "jujur deh, ada ga yang gebetannya sekarang sebenernya udah ngasih sinyal dari dulu, tapi lu sendiri yang kebanyakan mikir dan akhirnya kelamaan?",
+      "type": "question",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "overthinking couple crush signal"
+    },
+    {
+      "id": 6,
+      "content": "hot take: relationship yang dimulai dari friendzone biasanya lebih tahan lama karena fondasinya udah kuat sebelum ada perasaan. fight me.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "friends to lovers relationship foundation"
+    },
+    {
+      "id": 7,
+      "content": "7 red flag PDKT yang sering lu anggap biasa padahal bahaya banget — thread buat yang lagi naksir seseorang",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ lu lagi PDKT sama seseorang dan rasanya enak banget. tapi ada hal-hal kecil yang bikin ga nyaman. jangan diabaikan. ini 7 red flag PDKT yang sering kelewat karena lu udah terlanjur suka. simak sampe habis.",
+        "2/ RED FLAG 1: dia cuma aktif chat kalau lagi butuh sesuatu. entah itu curhat, minta tolong, atau lagi bosen. tapi kalau lu yang butuh dia, tiba-tiba ghost. ini bukan sibuk, ini selektif.",
+        "3/ RED FLAG 2: dia sering bandingin lu sama mantan. 'mantanku dulu juga gitu' atau 'beda sama yang dulu'. lu bukan pengganti siapapun bestie. kalau dia masih sering nyebut mantan, hatinya belum clear.",
+        "4/ RED FLAG 3: janji-janji tapi ga pernah ditepatin. 'nanti ketemuan ya' udah seminggu ga ada kabar. 'aku traktir deh' sampe sekarang ga kejadian. orang yang serius sama lu ga akan biarin janjinya jadi angin.",
+        "5/ RED FLAG 4: dia ga pernah nanya balik soal hidup lu. tiap chat dia yang cerita mulu, lu yang dengerin mulu. tapi kalau lu mau cerita, topiknya balik lagi ke dia. ini bukan chemistry, ini dia cuma butuh audiens.",
+        "6/ RED FLAG 5: sikapnya berubah-ubah tergantung mood. hari ini manis banget, besok dingin kayak orang ga kenal. lu jadi nebak-nebak terus. ini bukan misterius, ini ga stable. dan lu ga layak hidup di ketidakpastian.",
+        "7/ RED FLAG 6: dia ga pernah introduce lu ke circle dia. udah berbulan-bulan PDKT tapi temennya ga ada yang tau lu exist. kalau dia serius, dia ga akan sembunyiin lu dari orang-orang penting dalam hidupnya.",
+        "8/ RED FLAG 7: dia selalu punya excuse kalau lu minta kejelasan. 'aku lagi fokus karir dulu', 'belum siap relationship', tapi tetep mau deket sama lu. ini namanya benching — lu dijadiin cadangan sambil dia cari yang lebih baik.",
+        "9/ yang paling bahaya dari semua ini? lu akan rasionalisasi semua red flag itu karena lu udah suka. 'mungkin dia emang lagi sibuk', 'mungkin dia butuh waktu'. tapi deep down lu tau sesuatu ga beres.",
+        "10/ ingat satu hal: orang yang tepat ga akan bikin lu ngerasa kayak lu minta terlalu banyak cuma dengan minta diperlakukan dengan baik. itu standar minimum, bukan ekspektasi tinggi.",
+        "11/ kalau lu nemu 3 atau lebih dari list ini di orang yang lagi lu PDKT-in sekarang — bukan berarti lu harus langsung pergi. tapi setidaknya sadari dulu. jangan kasih hati lu ke orang yang bahkan ga mau jaga perasaan lu.",
+        "12/ lu deserve seseorang yang konsisten, yang bangga sama lu, dan yang ga bikin lu ngerasa insecure soal posisi lu di hidupnya. itu bukan standar tinggi. itu standar normal.",
+        "13/ kalau konten ini relate sama situasi lu sekarang, tag temen lu yang lagi butuh baca ini. dan share pengalaman lu di reply — gue baca semua. kita support satu sama lain di sini."
+      ],
+      "imageQuery": "red flags dating warning signs relationship"
+    },
+    {
+      "id": 8,
+      "content": "kenapa cowok dan cewek sering salah paham satu sama lain dalam hubungan — ini bukan soal gender war, tapi soal cara kerja otak yang beda",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ gue capek liat orang berantem soal 'cowok ga peka' atau 'cewek lebay'. kenyataannya? kalian berdua bener. masalahnya bukan salah satu pihak — tapi cara kalian proses emosi itu fundamentally beda. thread penting buat yang lagi dalam hubungan.",
+        "2/ PERBEDAAN 1: cara deal sama masalah. cewek cenderung mau didengar dulu sebelum dikasih solusi. cowok cenderung langsung problem-solving mode. akibatnya? cowok kasih solusi, cewek ngerasa ga dipahami. dua-duanya niat baik tapi hasilnya salah paham.",
+        "3/ ini bukan berarti cowok ga empati atau cewek ga mau solusi. tapi cara defaultnya beda. fix-nya simpel: tanya dulu. 'kamu mau aku dengerin aja atau mau aku bantu cari solusi?' satu pertanyaan ini bisa cegah ribuan drama.",
+        "4/ PERBEDAAN 2: cara ekspresiin sayang. banyak cowok ekspresiin sayang lewat tindakan — beliin sesuatu, bantu beresin masalah, hadir pas susah. banyak cewek ekspresiin sayang lewat kata-kata dan waktu quality. kalau love language-nya beda, effort bisa ga keliatan.",
+        "5/ akibatnya cowok ngerasa udah usaha banget tapi ga diapresiasi. cewek ngerasa ga disayang padahal pasangannya udah kerja keras buat dia. dua-duanya exhausted, dua-duanya ngerasa ga dihargai. padahal masalahnya cuma: belum pernah ngobrol soal ini.",
+        "6/ PERBEDAAN 3: cara proses konflik. cowok sering butuh waktu sendiri dulu pas lagi berantem — bukan kabur, tapi recharge. cewek sering mau langsung resolve karena nunda masalah bikin anxiety. akibatnya cowok ngerasa dikejar, cewek ngerasa diabaikan.",
+        "7/ solusinya bukan salah satu yang ngalah. tapi bikin kesepakatan: 'aku butuh 30 menit buat tenang dulu, abis itu kita ngobrol ya.' itu bukan penolakan, itu request yang reasonable. dan cewek yang denger ini harusnya bisa ngerti kalau dikomunikasiin dengan baik.",
+        "8/ PERBEDAAN 4: cara ngeliat kemandirian. cowok sering interpret 'aku bisa sendiri' dari pasangan sebagai tanda dia ga dibutuhin. cewek sering interpret 'aku mau bantu' dari pasangan sebagai tanda dia ga dipercaya bisa sendiri. dua-duanya salah baca.",
+        "9/ kemandirian dalam relationship itu bukan ancaman. itu sehat. pasangan yang bisa happy sendiri dan tetap milih buat bareng lu — itu jauh lebih kuat dari pasangan yang bergantung karena takut sendirian.",
+        "10/ PERBEDAAN 5: cara ngeliat 'diem'. buat banyak cowok, diem = oke, ga ada masalah. buat banyak cewek, diem bisa berarti banyak hal. jadi kalau cewek tiba-tiba diem, cowok sering ga notice. dan itu bikin cewek makin frustrasi.",
+        "11/ ga ada yang salah dari dua pola ini. tapi kalau ga pernah dikomunikasiin, ini jadi bom waktu. cewek numpuk isi hati, cowok ga tau ada masalah, sampai akhirnya meledak soal hal kecil yang sebenernya soal hal besar yang lama ga diungkapin.",
+        "12/ intinya: perbedaan ini bukan alasan buat give up atau bilang 'kita emang ga cocok'. ini justru alasan buat makin sering ngobrol. relationship yang kuat bukan yang ga punya perbedaan — tapi yang tau cara navigate perbedaan itu bareng-bareng.",
+        "13/ kalau lu lagi dalam hubungan, coba tanya pasangan lu hari ini: 'ada ga yang selama ini kamu rasain tapi belum pernah bilang ke aku?' jawaban dari pertanyaan itu bisa ubah dinamika hubungan lu sepenuhnya.",
+        "14/ share thread ini ke pasangan lu atau ke temen yang lagi struggle sama hubungannya. dan ceritain di reply — perbedaan mana yang paling relate sama situasi lu? gue genuinely penasaran."
+      ],
+      "imageQuery": "couple communication understanding relationship talk"
+    }
+  ]
+}

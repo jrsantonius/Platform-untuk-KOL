@@ -1,0 +1,109 @@
+{
+  "accountId": "txtdrotomotif",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T05:03:16.655Z",
+  "tweets": [
+    {
+      "id": 1,
+      "content": "Orang beli Alphard buat gaya, orang beli Innova buat kerja. Tapi yang beli Avanza? Buat survive. Respect tertinggi buat Avanza owner, kalian tulang punggung jalanan Indonesia.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "Toyota Avanza Indonesia road"
+    },
+    {
+      "id": 2,
+      "content": "Reminder: ganti oli mesin itu bukan soal kilometer doang. Kalau motor lu sering kena macet Jakarta, oli cepet rusak walau jarak tempuh masih sedikit. Panasnya ngancurin oli lebih cepet dari yang lu kira.",
+      "type": "tips",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "motorcycle engine oil change"
+    },
+    {
+      "id": 3,
+      "content": "Pertanyaan serius buat pengguna mobil listrik di Indonesia: pernah ga panik waktu baterai tinggal 15% tapi charging station terdekat masih 40 km lagi? Ceritain pengalaman lu di reply, gue penasaran bgt.",
+      "type": "question",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "electric car charging station Indonesia"
+    },
+    {
+      "id": 4,
+      "content": "THREAD: Gue baru aja ngitung berapa duit yang gue buang percuma gara-gara salah pilih BBM buat motor gue. Hasilnya bikin gue mau nangis. Baca sampe habis, mungkin lu juga lagi ngalamin hal yang sama.",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Selama 2 tahun gue isi Pertalite buat Vario 160 gue. Alasannya simpel: murah. Tapi bulan lalu montir langganan gue bilang sesuatu yang bikin gue diem 5 menit.",
+        "2/ Dia bilang: 'Mas, piston motor sampeyan udah ada kerak karbon tebal. Ini gara-gara BBM oktan rendah dipake di mesin kompresi tinggi.' Biaya bersihinnya? 350 ribu. Itu baru bersihin, belum servis lainnya.",
+        "3/ Vario 160 itu mesin DOHC dengan kompresi 11:1. Pabrikan Honda rekomendasiin minimal RON 92 alias Pertamax. Gue malah isi RON 90 (Pertalite) selama 2 tahun. Gue kira gue hemat, ternyata gue rugi.",
+        "4/ Oke gue breakdown biar keliatan jelas. Pertalite RON 90: Rp 10.000/liter. Pertamax RON 92: Rp 13.900/liter. Selisih Rp 3.900/liter. Motor gue muat 4 liter. Selisih per isi penuh = Rp 15.600.",
+        "5/ Gue isi bensin rata-rata 3x seminggu. Selisih per minggu = Rp 46.800. Per bulan = Rp 187.200. Per tahun = Rp 2.246.400. Keliatan gue hemat hampir 2.25 juta setahun kan? Sekarang dengerin bagian yang nyeseknya.",
+        "6/ Gara-gara rutin pakai oktan rendah di mesin kompresi tinggi, efek yang gue rasain: tenaga motor ngedrop, konsumsi BBM malah lebih boros 10-15%, mesin cepet panas, dan sekarang ada kerak karbon yang harus dibersihin.",
+        "7/ Konsumsi BBM Vario 160 harusnya 1:40 km/liter. Punya gue cuma dapet 1:33. Artinya per liter gue rugi 7 km. Kalau sebulan gue jalan 1.200 km, gue butuh 36 liter. Harusnya cuma 30 liter. Selisih 6 liter x Rp 13.900 = Rp 83.400 per bulan.",
+        "8/ Jadi penghematan Rp 187.200 per bulan dari pilih Pertalite, HANGUS karena boros BBM Rp 83.400 + biaya servis tambahan. Belum lagi potensi kerusakan mesin jangka panjang yang bisa jutaan rupiah.",
+        "9/ Real talk: pakai BBM sesuai rekomendasi pabrikan itu bukan soal gaya-gayaan. Itu soal efisiensi jangka panjang. Mesin yang happy = performa optimal = konsumsi BBM efisien = umur mesin panjang.",
+        "10/ Cara cek rekomendasi BBM motor/mobil lu: 1) Lihat buku manual, 2) Lihat stiker di tutup tangki bensin, 3) Cek di website resmi pabrikan. Butuh 2 menit doang. Jangan males kayak gue dulu.",
+        "11/ Kesimpulan: selisih harga BBM itu tipis, tapi efeknya ke mesin itu gede banget kalau lu salah pilih. Gue udah buktiin sendiri dengan cara yang menyakitkan dompet dan hati.",
+        "12/ Kalau lu lagi pake Pertalite di motor injeksi modern atau mesin kompresi tinggi, mungkin saatnya lu recalculate ulang. Konsultasi ke montir terpercaya lu dan tanya jujur apa yang terjadi sama mesin lu.",
+        "13/ Share thread ini ke grup keluarga atau temen yang suka 'irit-iritan' pilih BBM. Biar mereka ga ngalamin kerugian yang sama kayak gue. RT dan komen di bawah: lu tim Pertalite atau Pertamax? Jujur aja, gue ga bakal judge."
+      ],
+      "imageQuery": "fuel pump gasoline petrol station Indonesia"
+    },
+    {
+      "id": 5,
+      "content": "Hot take yang bakal banyak yang ga setuju: motor matik itu LEBIH SUSAH dikuasai dengan benar daripada motor manual. Di manual lu mikir. Di matik lu ngerasa udah bisa padahal teknik pengereman dan handling lu masih ancur.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "automatic vs manual motorcycle Indonesia"
+    },
+    {
+      "id": 6,
+      "content": "Info buat yang mau beli mobil second: AC ngehembus angin doang tapi ga dingin = waspada. Biaya servis AC mobil itu bisa Rp 1-3 juta bahkan lebih. Pastiin tes AC minimal 10 menit sebelum deal. Jangan tergoda harga murah doang.",
+      "type": "tips",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "used car inspection air conditioning"
+    },
+    {
+      "id": 7,
+      "content": "THREAD: Gue test drive Mitsubishi Xforce vs Honda HR-V selama seminggu buat temen gue yang mau beli SUV 400 jutaan. Hasilnya bikin gue kaget sendiri. Siapa yang menang? Ini dia verdict jujur tanpa basa-basi.",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Temen gue minta tolong gue bantu milih antara Mitsubishi Xforce vs Honda HR-V. Budget 400-430 jutaan. Gue ambil serius, gue test drive dua-duanya bergantian seminggu penuh. Ini laporan lapangannya.",
+        "2/ EKSTERIOR: Xforce lebih agresif dan futuristik. HR-V lebih elegan dan timeless. Kalau soal bikin orang noleh di jalan, Xforce menang tipis. Tapi kalau soal ga cepet bosen ngeliatnya, HR-V lebih aman.",
+        "3/ INTERIOR Xforce: kabin terasa premium, material cukup oke, layar 9 inci, ada panoramic sunroof di varian tertinggi. Minusnya: ruang kaki baris kedua agak sempit buat yang tingginya di atas 175 cm.",
+        "4/ INTERIOR HR-V: kabin lebih lega terutama baris kedua, material juga oke, layar 8 inci, tapi ga ada sunroof. Posisi duduk pengemudi lebih natural menurut gue. Buat keluarga yang sering bawa penumpang, HR-V terasa lebih nyaman.",
+        "5/ MESIN - ini bagian yang paling menarik. Xforce pake 1.5L MIVEC 105 hp. HR-V pake 1.5L VTEC Turbo 177 hp. Di atas kertas HR-V jauh lebih bertenaga. Tapi di jalanan real Indonesia, bedanya kerasa ga?",
+        "6/ Jawaban jujurnya: di jalanan kota macet, beda tenaga itu ga terlalu kerasa. Tapi begitu lu masak jalan tol atau jalan nanjak, HR-V Turbo itu beda level. Akselerasi dia mulus dan responsif. Xforce terasa lebih 'berusaha'.",
+        "7/ HANDLING: Xforce suspensinya lebih empuk, enak buat jalanan rusak Indonesia. HR-V suspensinya lebih sporty dan presisi tapi kadang terasa keras di jalan jelek. Pilih mana tergantung mayoritas rute lu sehari-hari.",
+        "8/ FITUR SAFETY: dua-duanya udah punya Honda Sensing dan Mitsubishi Advanced Safety. Sama-sama juara di kelas ini. Tapi implementasi Honda Sensing di HR-V terasa lebih halus dan ga terlalu annoying intervensinya.",
+        "9/ KONSUMSI BBM: Xforce rata-rata 13-14 km/liter (kombinasi). HR-V Turbo rata-rata 12-13 km/liter. Xforce lebih irit, tapi bedanya tipis. Jangan jadiin ini faktor utama penentu pilihan lu.",
+        "10/ AFTER SALES: Honda dealernya lebih banyak dan merata di seluruh Indonesia. Mitsubishi juga lumayan tapi kalau lu di kota kecil, bisa jadi pertimbangan. Spare part HR-V juga lebih gampang nyarinya.",
+        "11/ HARGA (estimasi OTR Jakarta 2026): Xforce Ultimate CVT sekitar Rp 410-420 juta. HR-V 1.5 Turbo RS CVT sekitar Rp 425-440 juta. Xforce lebih murah tapi HR-V ngasih tenaga jauh lebih besar.",
+        "12/ VERDICT GUE: Kalau prioritas lu adalah tenaga, handling sporty, dan brand image premium, pilih HR-V Turbo. Kalau lu prioritaskan kenyamanan, desain kekinian, sunroof, dan budget lebih terjangkau, pilih Xforce.",
+        "13/ Temen gue akhirnya pilih Xforce. Alasannya: dia lebih sering pakai mobil buat harian di kota, bukan ngebut di tol. Plus dia jatuh cinta sama sunroof dan desain Xforce yang bikin dia ngerasa ganteng tiap kali masuk garasi.",
+        "14/ Tapi kalau gue yang beli dengan budget sama? Gue pilih HR-V Turbo. Karena gue sering keluar kota dan sensasi berkendara itu penting buat gue. Ini soal gaya hidup dan prioritas, bukan soal siapa yang menang.",
+        "15/ Kalian tim Xforce atau HR-V? Drop di reply dan kasih tau alasan lu. Gue baca semua komentar. Kalau mau gue bikin perbandingan serupa untuk kelas lain, RT thread ini biar gue tau ada yang nunggu konten selanjutnya."
+      ],
+      "imageQuery": "Mitsubishi Xforce Honda HRV SUV comparison"
+    },
+    {
+      "id": 8,
+      "content": "Fenomena yang cuma ada di Indonesia: lampu hazard nyala saat hujan deras. Bestie, itu salah kaprah. Lampu hazard bikin orang ga tau lu mau belok ke mana. Yang bener: nyalain lampu utama, pelanin laju, jaga jarak.",
+      "type": "relatable",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "car hazard light rain driving Indonesia"
+    }
+  ]
+}

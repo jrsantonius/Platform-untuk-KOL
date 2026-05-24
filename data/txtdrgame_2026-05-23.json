@@ -1,0 +1,107 @@
+{
+  "accountId": "txtdrgame",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T04:57:12.457Z",
+  "tweets": [
+    {
+      "id": 1,
+      "content": "hot take: hero MLBB yang paling sering di-ban justru bukan yang paling kuat, tapi yang paling NYEBELIN buat dilawan. Kagura, Ling, Fanny itu bukan OP — mereka cuma bikin mental down. fight me.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "Mobile Legends Bang Bang hero ban"
+    },
+    {
+      "id": 2,
+      "content": "gue udah ngitung — rata-rata player rank Epic di MLBB itu kalah bukan karena skill, tapi karena ROTASI. lu bisa mekanik bagus tapi kalau ga tau kapan harus balik base atau bantu lane lain, ya tetep kalah bestie.",
+      "type": "tips",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "Mobile Legends map rotation strategy"
+    },
+    {
+      "id": 3,
+      "content": "temen gue beli skin Legend di FF padahal laptopnya masih lag di setting low. prioritas hidupnya beda level sama gue. gue respect tapi juga ga habis pikir 💀",
+      "type": "meme",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "Free Fire legendary skin funny"
+    },
+    {
+      "id": 4,
+      "content": "THREAD: Gue habis 3 tahun stuck di rank yang sama di Valorant. Bulan lalu akhirnya naik 2 rank dalam sebulan. Ini bukan soal aim — ini soal hal yang 90% player ga pernah lakuin. Mau tau? 🧵",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Gue habis 3 tahun stuck di rank yang sama di Valorant. Bulan lalu akhirnya naik 2 rank dalam sebulan. Ini bukan soal aim — ini soal hal yang 90% player ga pernah lakuin. Mau tau? 🧵",
+        "2/ Pertama gue jujur sama diri sendiri. Gue rekam gameplay sendiri pake OBS, trus gue tonton ulang kayak nonton film horor. Hasilnya? Gue sadar gue selalu mati di spot yang SAMA berulang kali. Bodoh tapi butuh bukti buat ngakuinnya.",
+        "3/ Kesalahan paling fatal: gue selalu push masuk site sendirian duluan. Ngerasa jagoan, padahal cuma kasih info gratis buat musuh. Setiap mati kayak gitu, gue bilang 'teamnya ga support' — padahal gue yang egois.",
+        "4/ Kedua: gue stop maen lebih dari 3 game berturut-turut dalam satu sesi. Kedengeran aneh, tapi ini game changer. Setelah kalah 2 kali, otak udah mulai emosi dan decision-making lu drop parah. Sisanya cuma buang RR.",
+        "5/ Ketiga: gue fokus ke SATU agen aja selama sebulan penuh. Bukan karena agen itu meta — tapi karena lu harus tau agen lu lebih dalam dari musuh tau cara counter lu. Gue pilih Jett karena udah kenal lama.",
+        "6/ Keempat — ini yang paling susah: gue berhenti blame tim. Bukan karena tim gue bagus. Tapi karena energi yang gue pake buat ngetik flame di chat itu lebih berguna kalau dipake buat mikir rotasi.",
+        "7/ Kelima: gue pelajarin economy. Banyak player rank menengah yang masih full buy pas harusnya save, atau eco pas harusnya force buy. Satu round economy yang salah bisa ngubah momentum match secara keseluruhan.",
+        "8/ Keenam: warm up 15 menit sebelum ranked. Bukan aim trainer doang — tapi deathmatch aktif sambil fokus ke crosshair placement. Tujuannya bukan kill, tapi bikin tangan dan mata lu sinkron sebelum match beneran.",
+        "9/ Ketujuh — dan ini yang paling underrated: gue mulai minta VOD review dari temen yang ranknya lebih tinggi. Bukan minta pujian. Gue minta dia roast gue habis-habisan. Sakitnya nyata, manfaatnya lebih nyata.",
+        "10/ Hasilnya setelah sebulan? Dari Gold 2 ke Platinum 1. Bukan naik karena tiba-tiba jago aim. Tapi karena gue akhirnya maen dengan kepala, bukan ego. Rank lu cerminan kebiasaan lu — bukan nasib.",
+        "11/ Kalau lu masih stuck di rank yang sama lebih dari 2 bulan, jangan nyalahin musuh, jangan nyalahin server. Rekam, tonton, dan tanya ke diri sendiri: gue ngulang kesalahan yang sama ga? Jawabannya hampir pasti: iya.",
+        "12/ Drop reply di bawah — lu stuck di rank berapa dan udah berapa lama? Gue bakal coba kasih feedback berdasarkan pengalaman gue. Retweet kalau ini relate buat lu atau temen lu yang butuh denger ini 🔁"
+      ],
+      "imageQuery": "Valorant rank improvement gameplay"
+    },
+    {
+      "id": 5,
+      "content": "PUBG Mobile update terbaru nambahin fitur baru lagi tapi server masih kaya jemuran basah — lambat dan ga jelas kapan keringnya. Prioritas developer itu kadang bener-bener misterius ya bestie 😭",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "PUBG Mobile server lag update"
+    },
+    {
+      "id": 6,
+      "content": "kalau lu main Genshin Impact dan masih ngerasa F2P itu susah, gue mau bilang: spiral abyss floor 12 bisa di-clear tanpa spend sepeser pun. Yang bikin susah itu bukan dompet, tapi build dan rotasi yang asal-asalan.",
+      "type": "tips",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "Genshin Impact F2P Spiral Abyss clear"
+    },
+    {
+      "id": 7,
+      "content": "pertanyaan serius buat yang main ranked malem-malem: lu tuh sebenernya mau naik rank atau mau numpuk trauma? karena dua-duanya valid sih, gue cuma mau mastiin aja 💀",
+      "type": "relatable",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "late night gaming ranked stress"
+    },
+    {
+      "id": 8,
+      "content": "THREAD: Gue pernah nemenin adik gue yang baru main MLBB — dan dari situ gue sadar kenapa game ini bisa bikin orang benci gaming. Ini cerita yang perlu dibaca sama semua player veteran 🧵",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Gue pernah nemenin adik gue yang baru main MLBB — dan dari situ gue sadar kenapa game ini bisa bikin orang benci gaming. Ini cerita yang perlu dibaca sama semua player veteran 🧵",
+        "2/ Adik gue, 14 tahun, baru install MLBB minggu lalu. Excited banget. Gue seneng, mikir bisa maen bareng. Dia pilih hero random, masuk match Classic, dan dalam 5 menit pertama langsung kena flame dari satu player.",
+        "3/ Kata-katanya ga perlu gue ulang di sini. Tapi intinya: player itu ngatain adik gue noob, suruh uninstall, dan bilang dia ngabisin slot tim. Adik gue masih baru. Dia belum tau build, belum tau lane. Wajar banget.",
+        "4/ Yang gue ga habis pikir: ini match Classic. Bukan Ranked. Bukan Grand Final MPL. Ini game santai yang harusnya jadi tempat belajar. Tapi ada orang yang ngerasa hidupnya bergantung pada kemenangan match itu.",
+        "5/ Adik gue diem. Ga balas. Tapi mukanya berubah. Dia yang tadinya senyum-senyum excited tiba-tiba jadi ragu. Dia tanya gue: 'Emang semua orang gaming kayak gitu kak?' Dan gue ga tau harus jawab apa.",
+        "6/ Gue inget dulu gue juga pernah di posisi dia. Baru main, excited, trus langsung disambut toxicity. Bedanya gue punya temen yang nemenin. Adik gue? Dia hampir sendirian kalau gue ga ada di sebelahnya waktu itu.",
+        "7/ Ini masalah yang lebih gede dari sekedar satu player toxic. Komunitas gaming Indonesia punya reputasi yang udah rusak duluan. Orang luar ngeliat gamer Indonesia identik sama flame, feed sengaja, dan egois. Itu nyakitin.",
+        "8/ Player veteran sering bilang: 'ya namanya juga game kompetitif, mental harus kuat.' Tapi ini Classic bro. Dan bahkan di Ranked pun, toxicity ga pernah bikin tim menang lebih sering. Data menunjukkan komunikasi positif meningkatkan winrate.",
+        "9/ Akhirnya gue ajarin adik gue step by step. Basic mechanic, map awareness, cara mute player toxic. Tapi yang paling penting gue ajarin: ini cuma game. Kalau ada yang flame, itu masalah mereka, bukan masalah lu.",
+        "10/ Adik gue sekarang udah main 1 minggu dan mulai ngerti rotasi dasar. Dia bilang mulai suka. Tapi dia juga bilang: 'untung kak ada, kalau engga mungkin udah uninstall.' Dan kalimat itu yang terus gue inget.",
+        "11/ Berapa banyak player baru yang kabur dari game ini — atau dari gaming secara umum — karena disambut sama toxicity bukan sambutan? Kita ga pernah tau. Tapi pasti banyak. Dan kita semua ikut bertanggung jawab.",
+        "12/ Gue ga minta lu jadi mentor. Gue cuma minta: kalau lu ketemu player baru di game manapun, jangan flame. Kalau ga mau bantu, setidaknya diem. Lu pernah jadi pemula juga. Sesederhana itu.",
+        "13/ Buat lu yang sering flame player baru: lu ga jadi lebih jago karena numpahin frustrasi ke orang lain. Lu cuma bikin ekosistem game yang udah lu cintain jadi lebih rusak dari sebelumnya.",
+        "14/ Retweet ini kalau lu pernah ngalamin hal serupa — baik sebagai yang kena flame, atau yang nemenin orang tersayang yang hampir give up karena toxic community. Yuk bikin gaming Indonesia lebih manusiawi 🔁"
+      ],
+      "imageQuery": "Mobile Legends toxic player new gamer"
+    }
+  ]
+}

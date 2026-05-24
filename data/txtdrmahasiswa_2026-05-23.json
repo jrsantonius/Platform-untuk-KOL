@@ -1,0 +1,109 @@
+{
+  "accountId": "txtdrmahasiswa",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T04:58:31.353Z",
+  "tweets": [
+    {
+      "id": 1,
+      "content": "IPK 3.9 tapi ga bisa masak, ga bisa nyuci baju sendiri, ga bisa atur uang. Sukses di kampus, gagal di kehidupan nyata. Kurikulum kita emang rada aneh sih.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "student stressed campus life"
+    },
+    {
+      "id": 2,
+      "content": "Temen gue lulus cumlaude, langsung nganggur 1 tahun. Temen lain IPK pas-pasan, 3 bulan sebelum wisuda udah dapet kerja. Jadi sebenarnya kampus ngajarin apa ya?",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "university graduation job hunting"
+    },
+    {
+      "id": 3,
+      "content": "Tips hemat anak kos yang sebenernya works: beli beras 5kg seminggu sekali, masak sendiri minimal 1x sehari, matiin wifi jam 11 malem biar ga rebahan scroll sampe subuh. Receh tapi ngaruh bgt ke pengeluaran.",
+      "type": "tips",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "student cooking dormitory budget"
+    },
+    {
+      "id": 4,
+      "content": "Dosen: 'Kalau ada pertanyaan, tanya aja jangan malu.' Mahasiswa: nanya. Dosen: 'Harusnya udah tau itu, masa hal basic gitu ga paham?' Bro kenapa lu bohong di awal?",
+      "type": "relatable",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "student raising hand classroom lecture"
+    },
+    {
+      "id": 5,
+      "content": "Reminder buat yang lagi ngerasa ketinggalan: semester ini ada yang baru mulai skripsi, ada yang udah sidang, ada yang DO, ada yang nilainya bagus tapi nangis tiap malem. Semua lagi berjuang, cuma medan tempurnya beda.",
+      "type": "relatable",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "college student motivation support"
+    },
+    {
+      "id": 6,
+      "content": "Kalau uang bulanan lu abis di minggu ke-2, itu bukan karena lu boros. Itu karena uang yang dikasih emang ga cukup. Jangan salahkan diri sendiri terus, kadang masalahnya di sistemnya.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "student empty wallet money struggle"
+    },
+    {
+      "id": 7,
+      "content": "THREAD: Gue survive 4 tahun kuliah dengan uang bulanan 800rb. Bukan fleks kesusahan, tapi ini semua trik yang beneran gue lakuin biar ga mati kelaparan di kos.",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Gue survive 4 tahun kuliah dengan uang bulanan 800rb. Bukan fleks kesusahan, tapi ini semua trik yang beneran gue lakuin biar ga mati kelaparan di kos. Simak sampe abis karena ada beberapa yang mungkin belum kepikiran sama lu.",
+        "2/ Pertama, gue bikin sistem amplop digital. Tiap awal bulan, uang gue bagi ke 4 pos: makan, transport, keperluan, darurat. Begitu satu pos abis, gue ga boleh ambil dari pos lain. Disiplin ini yang nyelamatin gue paling banyak.",
+        "3/ Makan: gue target maksimal 15rb per makan. Trik gue - cari warteg yang bisa milih lauk sendiri, bukan prasmanan. Lu bisa kontrol porsi dan harga. Rata-rata gue abis 12-15rb per makan, 2x sehari = 24-30rb per hari.",
+        "4/ Sarapan gue hampir selalu bikin sendiri. Rice cooker adalah investasi terbaik anak kos. Nasi + telur dadar + kecap = 5rb. Kalo males masak, roti tawar + selai = 7rb. Kenyang, murah, ga ribet.",
+        "5/ Transport: gue pilih kos yang jalan kaki ke kampus bisa ditempuh 15-20 menit. Iya, kosnya lebih murah karena agak jauh dari pusat. Tapi gue hemat 300-400rb per bulan dari ongkos. Sambil jalan, gue dengerin podcast atau review materi.",
+        "6/ Twist yang jarang orang lakuin: gue aktif di BEM dan UKM bukan buat CV doang, tapi karena sering ada konsumsi gratis di setiap rapat dan acara. Dalam sebulan bisa dapat 8-12 kali makan gratis. Lumayan banget bro.",
+        "7/ Gue juga manfaatin perpustakaan kampus maksimal. Semua buku referensi, jurnal, bahkan kadang ada snack di acara tertentu. Koneksi internetnya juga kenceng, jadi gue ga perlu beli kuota banyak asal sering ke kampus.",
+        "8/ Darurat fund itu WAJIB. Gue selalu simpen 100rb yang ga boleh disentuh kecuali benar-benar darurat. Pernah selamat pas motor temen butuh bensin dadakan, pas ada fotokopi mendadak, pas sakit butuh obat.",
+        "9/ Yang bikin boros tapi ga kerasa: jajan sambil gabut, beli minuman kekinian tiap nongkrong, dan transfer receh ke temen yang ujungnya ga balik. Gue mulai berani bilang 'gue ga bisa ikut dulu' dan itu bukan hal yang memalukan.",
+        "10/ Beasiswa itu bukan buat yang pinter doang. Ada beasiswa berbasis kebutuhan ekonomi. Gue apply KIP Kuliah, beasiswa kampus, sampai beasiswa dari yayasan swasta. Ditolak 3x sebelum akhirnya lolos. Jangan nyerah di penolakan pertama.",
+        "11/ Hal yang gue pelajarin: hidup hemat bukan berarti hidup sengsara. Gue tetep bisa nonton film, jalan sama temen, beli buku yang gue mau - tapi gue pilih kapan dan seberapa sering. Kontrol, bukan depresi.",
+        "12/ Sekarang gue udah kerja, dan skill ngatur uang dari masa kos itu yang bikin gue bisa nabung dari gaji pertama. Temen-temen yang dulu hidupnya 'wah' di kampus, sekarang banyak yang masih struggle ngatur gaji.",
+        "13/ Kesimpulan: 800rb per bulan itu berat, tapi bisa. Kuncinya bukan soal angkanya, tapi soal sistemnya. Lu yang sekarang lagi struggle dengan budget mepet, lu bukan gagal - lu lagi belajar skill yang banyak orang dewasa bahkan ga punya.",
+        "14/ Kalau lu mau template pembagian pos keuangan anak kos yang gue pakai, reply 'mau' di bawah. Gue bikinin thread khusus soal itu. Dan kalau ada tips hemat lain yang works buat lu, share di reply - kita saling bantu!"
+      ],
+      "imageQuery": "student budget money saving dormitory"
+    },
+    {
+      "id": 8,
+      "content": "THREAD: Gue hampir DO semester 5. Sekarang gue udah lulus dan kerja. Ini cerita jujur tentang apa yang sebenernya terjadi dan pelajaran yang ga akan gue dapet dari kelas manapun.",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Gue hampir DO semester 5. Sekarang gue udah lulus dan kerja di perusahaan yang gue mau. Ini cerita jujur tentang apa yang sebenernya terjadi - bukan cerita motivasi palsu, tapi yang beneran messy dan manusiawi.",
+        "2/ Semester 1-3 gue oke. IPK 3.2, temen banyak, aktif organisasi. Dari luar keliatan fine. Tapi di dalem, gue ga pernah ngerti kenapa gue kuliah jurusan ini. Gue milihnya karena ortu minta, bukan karena gue mau.",
+        "3/ Semester 4, gue mulai sering bolos. Bukan karena males - tapi karena tiap masuk kelas, gue ngerasa kosong banget. Ga ada koneksi sama sekali antara gue dan materi yang diajarkan. Gue duduk di kelas tapi pikiran gue kemana-mana.",
+        "4/ Nilai gue jeblok. 3 mata kuliah dapat D, 1 dapat E. IP semester itu 1.8. Gue harus ngulang, ada warning dari akademik, dan yang paling berat - gue harus ngomong ke orang tua. Itu percakapan paling susah dalam hidup gue.",
+        "5/ Yang orang ga tau: di balik hampir DO itu, gue sebenernya lagi ngerjain project freelance desain grafis. Gue udah dapet klien, udah dapet uang sendiri, dan gue ngerasa hidup cuma pas lagi desain. Bukan pas lagi belajar materi kuliah.",
+        "6/ Twist-nya: hampir DO itu justru jadi titik balik. Bukan karena gue tiba-tiba semangat kuliah, tapi karena gue akhirnya jujur sama diri sendiri dan orang tua. Gue bilang gue mau tetap lulus tapi sambil bangun karir di desain.",
+        "7/ Gue bikin perjanjian sama diri sendiri: lulus tepat waktu dengan IPK minimal 3.0, tapi di luar kuliah gue all-in ke desain. Gue belajar manajemen waktu yang beneran brutal - bukan tips Pinterest, tapi yang dipaksa situasi.",
+        "8/ Strategi gue survive akademik: gue fokus ke mata kuliah yang skornya gampang naik duluan. Gue dekatin dosen yang approachable buat minta second chance. Gue ga malu akui gue perlu bantuan. Ego gue udah abis waktu hampir DO.",
+        "9/ Gue juga mulai pilih-pilih temen belajar. Bukan pilih yang paling pinter, tapi yang paling bisa diajak serius. Ternyata belajar bareng 2 orang yang fokus itu jauh lebih efektif dari belajar bareng 7 orang yang setengahnya scroll TikTok.",
+        "10/ Semester 6-8, IPK gue naik drastis. Bukan karena gue tiba-tiba jadi genius - tapi karena gue udah nemuin cara belajar yang cocok buat gue: visual, praktis, langsung dikaitkan ke real case. Gue belajar pake contoh dari project freelance gue sendiri.",
+        "11/ Wisuda gue biasa aja. Ga cumlaude, ga speech di depan. Tapi di hari yang sama, gue dapet email offering dari studio desain yang udah gue incer 2 tahun. Portfolio gue yang ngomong, bukan IPK gue.",
+        "12/ Yang mau gue sampaikan bukan: kuliah itu ga penting. Tapi: kalau lu lagi di titik gelap sekarang, itu bukan akhir. Kadang hampir gagal itu cara semesta maksa lu jujur tentang apa yang sebenernya lu mau.",
+        "13/ Buat yang sekarang lagi ngerasa ga ada koneksi sama jurusannya, lagi dapat nilai jelek, atau lagi ngerasa sendirian - gue pernah di situ. Dan gue keluar. Bukan karena gue spesial, tapi karena gue ga berhenti coba.",
+        "14/ Kalau lu punya cerita serupa atau lagi di titik yang sama, reply di bawah. Gue baca semua. Dan kalau ada yang mau gue bahas lebih dalam soal gimana recover dari IP jeblok atau gimana bangun portfolio sambil kuliah, bilang aja - gue bikinin thread-nya."
+      ],
+      "imageQuery": "student struggling academic pressure comeback"
+    }
+  ]
+}

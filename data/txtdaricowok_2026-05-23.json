@@ -1,0 +1,111 @@
+{
+  "accountId": "txtdaricowok",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T05:01:59.583Z",
+  "tweets": [
+    {
+      "id": 1,
+      "content": "Cowok yang diem itu bukan berarti lemah. Dia lagi ngitung langkah. Yang paling berisik di ruangan justru yang paling gak tau apa-apa.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "confident silent man thinking"
+    },
+    {
+      "id": 2,
+      "content": "Reminder buat lo yang ngerasa hidup jalan di tempat: Bukan lo yang ketinggalan. Lo lagi ngebangun fondasi. Gedung 50 lantai juga keliatan gak ada progress pas lagi gali tanah.",
+      "type": "motivasi",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "building foundation construction progress"
+    },
+    {
+      "id": 3,
+      "content": "Gym tip yang gak ada yang kasih tau lu pas awal: Stop ngejar berat gede dulu. Form jelek + beban berat = cedera. Form bagus + beban ringan = progress nyata. Ego lo itu musuh terbesar di gym.",
+      "type": "tips",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "gym proper form beginner workout"
+    },
+    {
+      "id": 4,
+      "content": "Cowok Indonesia relate gak: paling susah bilang 'gue capek' ke orang tua. Kayak ada rasa bersalah gitu tiap mau ngeluh. Padahal validasi itu gak bikin lo lemah.",
+      "type": "relatable",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "tired young Indonesian man family"
+    },
+    {
+      "id": 5,
+      "content": "Hot take: Cowok yang bisa masak itu jauh lebih menarik daripada cowok yang cuma bisa bayar. Skill itu bukti dia bisa ngurusin diri sendiri. Itu karakter, bro.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "man cooking kitchen confident"
+    },
+    {
+      "id": 6,
+      "content": "Morning routine yang gue rekomendasiin buat cowok sibuk: 5 menit stretching, minum air putih dulu sebelum HP, satu hal yang harus diselesaiin hari ini. Sesederhana itu dulu. Konsisten dulu.",
+      "type": "tips",
+      "estimatedEngagement": "medium",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "morning routine productive man simple"
+    },
+    {
+      "id": 7,
+      "content": "THREAD: Gue dulu cowok yang paling males urusin penampilan. Sekarang orang sering nanya gue pake apa dan beli di mana. Ini semua yang gue pelajarin soal fashion pria simpel yang bikin keliatan 10x lebih keren tanpa harus keluar duit gede.",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Gue dulu cowok paling males urusin penampilan. Kaos polos, celana cargo, sandal jepit ke mana-mana. Tapi sekarang orang sering nanya gue pake apa. Ini semua yang gue pelajarin. Thread panjang, tapi worth it dibaca sampai habis.",
+        "2/ Kesalahan pertama cowok Indonesia: beli baju banyak tapi gak ada yang 'nyambung' satu sama lain. Hasilnya lemari penuh tapi tiap pagi bilang 'gak ada baju'. Solusinya? Capsule wardrobe.",
+        "3/ Capsule wardrobe itu konsep simpel: punya sedikit baju tapi semuanya bisa dipadupadankan. Lo gak butuh 30 baju. Lo butuh 10 baju yang bisa jadi 30 kombinasi berbeda.",
+        "4/ Warna dasar yang wajib ada: putih, hitam, navy, abu-abu, dan krem. Lima warna ini bisa dipake bareng apa aja. Mulai dari sini dulu sebelum lo coba warna lain.",
+        "5/ Investasi terbaik buat penampilan lo: sepatu putih polos yang bersih. Satu pasang sepatu putih bersih bisa angkat outfit paling biasa sekalipun. Ini bukan opini, ini fakta.",
+        "6/ Fit itu raja. Baju mahal tapi kebesaran = keliatan murahan. Baju murah tapi pas di badan = keliatan mahal. Lo bisa beli baju Rp 50rb di Shopee, tapi kalau fit-nya pas, hasilnya beda banget.",
+        "7/ Trik gampang cek apakah baju lo fit: bahu jahitan harus pas di ujung bahu lo, bukan turun atau naik. Kalau bahu gak pas, semua keliatan berantakan meski bagian lain oke.",
+        "8/ Celana yang wajib lo punya: satu celana chino warna krem atau navy. Bisa dipake kerja, nongkrong, atau kencan. Ini item paling versatile yang sering diremehkan cowok Indonesia.",
+        "9/ Soal aksesoris: less is more. Satu jam tangan simpel atau satu gelang kulit sudah cukup kasih karakter. Lo gak perlu rantai emas, cincin di semua jari, dan gelang berlapis buat keliatan stylish.",
+        "10/ Grooming itu bagian dari fashion yang sering dilupain. Rambut rapi + baju biasa = keliatan oke. Rambut acak-acakan + baju mahal = tetap keliatan gak keurus. Jangan skip ini.",
+        "11/ Trik rambut paling gampang: minta tukang cukur bikin potongan yang 'clean di pinggir'. Fade atau taper di sisi kepala itu otomatis bikin muka lo keliatan lebih tegas dan rapi.",
+        "12/ Budget realistis buat mulai? Lo gak perlu langsung beli semua. Mulai dari satu item per bulan. Prioritas: sepatu putih dulu, lalu celana chino, lalu kaos polos warna dasar.",
+        "13/ Hot take yang perlu lo denger: cowok yang keliatan rapi dan terawat itu bukan berarti narsis atau lebay. Itu namanya self-respect. Orang yang respect dirinya sendiri lebih mudah di-respect orang lain.",
+        "14/ Satu kebiasaan yang gue mulai dan bikin perbedaan besar: sebelum keluar rumah, cermin dulu 10 detik. Tanya ke diri sendiri: kalau gue ketemu orang penting hari ini, gue udah siap belum?",
+        "15/ Itu aja dari gue. Fashion bukan soal gaya-gayaan. Ini soal versi terbaik lo yang bisa lo tunjukin ke dunia setiap hari. Mulai dari hal kecil dulu. Reply dong, lo biasanya stuck di bagian mana soal penampilan?"
+      ],
+      "imageQuery": "stylish Indonesian man casual fashion minimal"
+    },
+    {
+      "id": 8,
+      "content": "THREAD: Gue pernah di titik di mana bangun tidur aja males. Gak produktif, gak termotivasi, ngerasa hidup gak gerak. Terus gue nemu satu konsep yang ngubah semuanya. Dan konsep ini gak ada di seminar motivasi mana pun.",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Gue pernah di titik paling bawah. Bangun tidur aja males. Scroll HP dari pagi sampai malem. Ngerasa semua orang maju, gue doang yang diem. Terus gue nemu satu konsep yang ngubah hidup gue. Dan ini gak ada di seminar motivasi mana pun.",
+        "2/ Namanya: Identity-Based Habits. Bukan soal apa yang lo lakuin. Tapi soal SIAPA yang lo percaya diri lo ini. Kedengarannya abstract, tapi dengerin gue dulu.",
+        "3/ Kebanyakan cowok motivasi dirinya gini: 'Gue harus rajin olahraga biar sehat.' Itu goal-based. Dan mayoritas gagal di sini karena motivasi habis setelah beberapa minggu.",
+        "4/ Identity-based beda. Lo ganti kalimatnya jadi: 'Gue adalah orang yang aktif dan jaga kesehatan.' Beda kan rasanya? Lo bukan lagi ngejar goal. Lo lagi jadi diri lo yang baru.",
+        "5/ Ini bukan omong kosong. Ada riset dari psikolog James Clear yang nunjukin bahwa perubahan perilaku jangka panjang selalu dimulai dari perubahan identitas, bukan perubahan kebiasaan.",
+        "6/ Cara praktisnya: mulai tanya ke diri sendiri setiap kali mau ambil keputusan, 'Orang yang gue mau jadi itu bakal milih apa di situasi ini?' Kedengarannya simpel tapi ini powerful banget.",
+        "7/ Contoh nyata yang gue lakuin: Dulu gue bilang ke diri sendiri, 'Gue mau belajar disiplin.' Sekarang gue bilang, 'Gue adalah orang yang disiplin.' Satu kata beda, efeknya jauh beda.",
+        "8/ Tapi ada jebakan yang wajib lo tau: identitas baru itu harus dibuktiin lewat tindakan kecil setiap hari. Lo gak bisa cuma bilang tanpa aksi. Satu push-up per hari lebih berharga dari rencana gym seminggu yang gak pernah jalan.",
+        "9/ Fase paling susah itu di 30 hari pertama. Karena otak lo masih reconnect antara identitas baru dan kebiasaan lama. Di sinilah kebanyakan orang nyerah. Jangan jadi mayoritas.",
+        "10/ Tips survive di 30 hari pertama: jangan bilang ke semua orang soal perubahan lo. Bukan karena sembunyi. Tapi karena otak lo bisa ngerasa udah 'dapat reward' dari ngomong doang, dan motivasi buat action-nya jadi berkurang.",
+        "11/ Setelah 30 hari, sesuatu yang ajaib kejadian: lo mulai gak nyaman kalau gak lakuin kebiasaan itu. Bukan lagi butuh motivasi. Itu udah jadi siapa lo. Itu titik yang lo mau capai.",
+        "12/ Hal yang bikin gue makin yakin sama konsep ini: cowok-cowok yang lo admire dan keliatan 'natural' sukses, disiplin, atau keren itu bukan karena mereka punya willpower lebih gede. Mereka cuma udah build identitas itu lebih lama.",
+        "13/ Jadi kalau lo ngerasa gagal terus setiap mau berubah, bukan berarti lo lemah. Lo cuma belum ganti cara lo ngeliat diri lo sendiri. Mulai dari sana dulu.",
+        "14/ Satu hal yang bisa lo lakuin hari ini, sekarang, tanpa butuh apa-apa: tulis di notes HP lo, 'Gue adalah...' lalu isi dengan identitas yang lo mau jadi. Baca itu tiap pagi. Sesimpel itu awalnya.",
+        "15/ Kalau thread ini ngena buat lo, reply sekarang dengan identitas baru yang lo mau bangun. Gue serius mau baca tiap jawaban. Dan siapa tau jawaban lo inspire cowok lain yang lagi butuh dorongan hari ini."
+      ],
+      "imageQuery": "focused determined young man mindset growth"
+    }
+  ]
+}

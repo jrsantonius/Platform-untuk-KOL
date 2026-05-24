@@ -1,0 +1,111 @@
+{
+  "accountId": "txtdrkuliner",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T04:56:02.044Z",
+  "tweets": [
+    {
+      "id": 1,
+      "content": "hot take: nasi padang pinggir jalan yang mejanya plastik & kursinya goyang itu 10x lebih enak dari restoran padang ber-AC yang harganya 3x lipat. lu gabisa convince gue sebaliknya.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "nasi padang street food Indonesia"
+    },
+    {
+      "id": 2,
+      "content": "kenapa ya mie ayam gerobak dorong yang abangnya pake kaos oblong itu selalu lebih mantap dari mie ayam resto fancy? ada yang bisa jelasin secara ilmiah? gue serius nanya ini.",
+      "type": "question",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "mie ayam street vendor Indonesia"
+    },
+    {
+      "id": 3,
+      "content": "THREAD: Gue abis investigasi 7 warteg paling murah di Jakarta & hasilnya bikin gue nangis terharu. Budget 15rb bisa makan kenyang + enak? BISA. Ini temuannya 🧵",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Gue capek liat konten kuliner yang rekomendasiin tempat makan 200rb+ terus bilang 'worth it banget'. Bro, gue mahasiswa. Gue coba buktiin 15rb masih bisa makan layak di Jakarta 2026.",
+        "2/ Rules gue: makan siang, kenyang beneran (bukan kenyang tipis), dan makanannya harus enak — bukan cuma 'lumayan lah'. Gue datengin 7 warteg beda selama seminggu. Ini hasilnya.",
+        "3/ Warteg 1 — daerah Tebet. Nasi + ayam goreng + tempe + sayur + teh = 14rb. Ayamnya kecil emang, tapi bumbunya meresep banget. Nasinya pulen. Gue duduk makan sambil nangis haru.",
+        "4/ Warteg 2 — Cikini. Nasi + ikan asin + tahu goreng + lalapan + sambal = 12rb. INI YANG PALING ENAK SEJAUH INI. Sambelnya fresh, ikan asinnya gurih gila. 12rb bro. DUA BELAS RIBU.",
+        "5/ Warteg 3 — Menteng (iya, Menteng). Nasi + perkedel + oseng tempe = 13rb. Ekspektasi gue rendah karena lokasinya 'fancy', tapi ternyata mantap. Perkedel kentangnya crispy luar lembut dalem.",
+        "6/ Warteg 4 — Senen. Ini yang paling rame, antri 10 menit. Nasi + sayur lodeh + telor balado = 11rb. Lodehnya kental & gurih, telornya bumbu meresep. Worth the wait.",
+        "7/ Warteg 5 — Kramat Raya. Nasi + tongkol + tempe orek = 15rb. Pas di budget. Tongkolnya suwir-suwir, bumbunya nendang. Ini yang paling 'nasi rumahan' vibesnya — bikin kangen emak.",
+        "8/ Warteg 6 — Jatinegara. Nasi + ayam kecap + tahu = 14rb. Ayam kecapnya JUARA. Manis-gurih-asin seimbang banget. Gue hampir nambah tapi sadar diri soal budget.",
+        "9/ Warteg 7 — Pasar Minggu. Nasi + rendang suwir (!) + sayur = 15rb. ADA RENDANG 15RB BRO. Emang suwir & porsinya kecil, tapi rasa rendangnya otentik. Ibu wartegnya baik banget pula.",
+        "10/ RANKING GUE: 1. Cikini (12rb, ikan asin + sambal savage) 2. Pasar Minggu (rendang suwir 15rb) 3. Senen (lodeh kental) 4. Kramat Raya (nasi rumahan) 5. Tebet 6. Jatinegara 7. Menteng",
+        "11/ Insight penting: warteg yang ibu/bapaknya RAMAH hampir selalu lebih enak. Bukan mitos. Ada korelasi nyata antara keramahan pemilik & kualitas masakan. Entah kenapa.",
+        "12/ Insight kedua: warteg yang rame SELALU lebih enak dari yang sepi. Jangan pernah makan di warteg kosong. Ini hukum alam kuliner yang berlaku 95% kasus.",
+        "13/ Kesimpulan: lu BISA makan enak dengan 15rb di Jakarta 2026. Caranya? Cari warteg yang: antriannya panjang, ibu/bapaknya ramah, tempatnya agak kumuh (ini penting), & buka dari pagi.",
+        "14/ Yang paling bikin gue sedih? Generasi sekarang udah mulai lupa nikmatnya makan di warteg. Padahal ini warisan kuliner Indonesia yang paling jujur & paling genuine yang ada.",
+        "15/ Lu punya warteg favorit di kota lu dengan harga gila-gilaan murah tapi enak banget? Drop di reply dong! Gue pengen bikin map warteg terbaik Indonesia bareng kalian. Gas!"
+      ],
+      "imageQuery": "Indonesian warteg cheap food budget meal"
+    },
+    {
+      "id": 4,
+      "content": "fakta yang bikin gue existential crisis: bakso yang paling enak di Indonesia kemungkinan besar dijual sama abang yang gerobaknya ga ada nama, ga ada IG, ga bisa di-review di Google Maps.",
+      "type": "info",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "bakso street food cart Indonesia"
+    },
+    {
+      "id": 5,
+      "content": "orang Jakarta ngomongin 'es teh manis' 3rb vs restoran yang jual 'iced brown sugar tea' 45rb: itu AIR TEH YANG SAMA BRO. bedanya cuma font di menunya. gue capek pura-pura ini normal.",
+      "type": "relatable",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "iced tea Indonesia cafe comparison"
+    },
+    {
+      "id": 6,
+      "content": "THREAD: Gue makan di 5 tempat kuliner yang lagi viral banget di TikTok. Hasilnya? Jujur aja — 3 dari 5 bikin gue kecewa parah. Ini review paling jujur yang bakal lu baca tahun ini 🧵",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Gue muak sama review kuliner berbayar yang semuanya bilang 'enak banget, recommended!' Kali ini gue bayar sendiri, dateng sendiri, dan gue bakal jujur 1000%. Siap-siap ada yang sakit hati.",
+        "2/ Tempat 1: Ramen viral yang antriannya 2 jam. Katanya 'authentic Japanese taste'. Budget: 120rb per porsi. Ekspektasi: tinggi banget. Realita: kuahnya terlalu asin, mie-nya overcooked. GUE ANTRI 2 JAM UNTUK INI.",
+        "3/ Yang bikin gue makin kesel di tempat 1: waktu gue bilang kuahnya asin ke temennya, dia bilang 'oh emang gitu konsepnya'. BRO. Asin bukan konsep. Asin itu over-seasoning. Beda.",
+        "4/ Tempat 2: Sate taichan yang katanya paling enak se-Jakarta. 85rb 10 tusuk. Oke gue akui — INI ENAK BENERAN. Daging sapinya empuk, sambelnya nendang, porsinya fair. Worth it. 9/10.",
+        "5/ Tempat 3: Korean BBQ all you can eat viral, 199rb/orang. Dagingnya oke, tapi pas gue minta refill, pelayan bilang 'udah mau habis, bentar ya' lalu ga pernah balik. Gue nunggu 20 menit. Bro.",
+        "6/ Masalah terbesar tempat 3: kalau lu pesen all you can eat tapi staff-nya stonewalling customer yang minta refill, itu namanya scam berkedok buffet. Gue komplain ke manager, dapet minta maaf doang.",
+        "7/ Tempat 4: Mie pedas level 100 yang viral gegara orang-orang nangis di TikTok. 55rb. Gue pesen level 50 dulu (penakut dikit). TERNYATA ENAK BANGET. Kuah kaldunya dalam banget, mie-nya kenyal. 8.5/10.",
+        "8/ Plot twist tempat 4: gue balik lagi 3 hari kemudian pesen level 100. Gue nangis. Bukan karena terharu — tapi karena mata gue literally perih kena uap cabenya. Worth it sih. Rekomen beneran.",
+        "9/ Tempat 5: Dessert viral yang di TikTok keliatan aesthetic banget. 75rb per item. Waktu dateng: tempatnya sempit, antriannya chaos, dan — ini yang paling parah — rasanya biasa BANGET. Pure hype, zero substance.",
+        "10/ Tempat 5 ini yang paling menyakitkan. Karena gue tau persis kenapa dia viral: lighting-nya bagus, kontennya rapi, influencer-nya cantik. Tapi makanannya? Roti + krim + topping = bisa gue bikin sendiri 15rb.",
+        "11/ VERDICT KESELURUHAN: Tempat 1 (Ramen): 5/10 — skip. Tempat 2 (Sate Taichan): 9/10 — GO. Tempat 3 (Korean BBQ): 6/10 — skip. Tempat 4 (Mie Pedas): 8.5/10 — GO. Tempat 5 (Dessert): 4/10 — SKIP.",
+        "12/ Pola yang gue temuin: tempat yang owner-nya yang masak sendiri atau pantau langsung SELALU lebih konsisten. Tempat yang udah jadi franchise atau terlalu scale-up = kualitas mulai goyah.",
+        "13/ Hot take gue: viral di TikTok itu lebih berbahaya dari rating bintang 5 di Google. Karena viral ditentukan visual & algoritma. Rating Google minimal ada unsur rasa di dalamnya.",
+        "14/ Lesson buat kalian: sebelum dateng ke tempat viral, cek dulu review-nya di Google Maps, bukan TikTok. Filter review yang ada fotonya & ditulis panjang. Itu biasanya paling jujur.",
+        "15/ Lu pernah kecewa parah sama tempat makan yang viral? Atau ada yang justru beyond expectation? Cerita di reply — gue bakal quote tweet yang paling relatable. Jangan mau ditipu hype terus!"
+      ],
+      "imageQuery": "viral food restaurant review Indonesia TikTok"
+    },
+    {
+      "id": 7,
+      "content": "reminder buat yang lagi diet: pecel lele 20rb itu proteinnya lebih tinggi, lebih kenyang, dan lebih bahagia daripada salad bowl 85rb yang lu foto buat IG tapi ga bikin kenyang sama sekali.",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "pecel lele Indonesian fried catfish rice"
+    },
+    {
+      "id": 8,
+      "content": "ada yang pernah ngalamin: pesan makanan ojol, kurirnya bilang 'makanannya tumpah sedikit tapi masih oke', tapi waktu dibuka setengah kuahnya ilang & nasinya udah kayak bubur? gue hampir nangis tadi.",
+      "type": "relatable",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "food delivery spilled meal ojol Indonesia"
+    }
+  ]
+}

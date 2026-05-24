@@ -1,0 +1,110 @@
+{
+  "accountId": "txtdaripromo",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T05:00:46.427Z",
+  "tweets": [
+    {
+      "id": 1,
+      "content": "pov: lu baru tau kalo ongkir gratis Shopee itu bisa distacking sama voucher cashback. gue udah hemat 45rb hari ini doang. kalian pada tau gak sih ini?",
+      "type": "hot_take",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "shopee free shipping voucher"
+    },
+    {
+      "id": 2,
+      "content": "reminder buat yang lupa: GoPay lagi kasih cashback 30% untuk transaksi di GoFood minimal 25rb. berlaku sampai hari ini tengah malam. jangan sampe kelewat bestie",
+      "type": "info",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "gopay cashback food promo"
+    },
+    {
+      "id": 3,
+      "content": "orang yang belanja di Tokopedia tanpa cek dulu di Lazada itu kayak beli nasi goreng tanpa nawar harga. mungkin sama, mungkin lebih mahal. selalu bandingin dulu bro",
+      "type": "relatable",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "price comparison shopping online"
+    },
+    {
+      "id": 4,
+      "content": "Thread: Gue udah tes semua cara dapetin ongkir gratis di 3 platform sekaligus — ini hasilnya dan mana yang paling worth buat 2026",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Gue habiskan 2 minggu buat tes semua cara dapetin ongkir gratis di Shopee, Tokopedia, sama Lazada secara bersamaan. Hasilnya? Ada yang bikin gue syok. Bacain sampe abis ya, worth banget.",
+        "2/ Oke jadi semua orang tau ongkir gratis itu ada, tapi yang pada gak tau: cara nge-STACK-nya biar bisa dapet ongkir gratis hampir setiap hari tanpa keluar duit lebih. Ini yang mau gue bahas.",
+        "3/ SHOPEE dulu. Kunci utamanya: aktifin Shopee Xpress sebagai kurir pilihan. Voucher ongkir gratis Shopee 90% cuma berlaku buat kurir ini. Kalau lu pilih JNE atau Sicepat, voucher gak nyambung.",
+        "4/ Trik Shopee lanjutan: masukin item ke keranjang dulu, jangan langsung checkout. Tunggu 1-2 jam. Shopee sering kirim notif voucher ongkir eksklusif buat user yang abandon cart. Udah gue coba, works.",
+        "5/ TOKOPEDIA sekarang. Tokopedia punya fitur bebas ongkir yang beda mekanismenya. Lu harus aktif dulu di program Tokopoints. Kumpulin poin dari transaksi, tuker jadi voucher ongkir gratis.",
+        "6/ Tapi ada bypass yang lebih cepat di Tokopedia: cari seller yang udah centang bebas ongkir dari toko-nya langsung. Filter pencarian pakai opsi bebas ongkir. Gak perlu keluar voucher sama sekali.",
+        "7/ LAZADA nih yang paling underrated. Program LazCoins-nya sering banget di-ignore orang. Padahal tiap hari lu bisa klik mini games di app Lazada buat dapet koin, yang bisa dituker voucher ongkir.",
+        "8/ Yang bikin gue syok soal Lazada: ada event Lazada Live tiap malem jam 8. Kalau lu nonton minimal 5 menit dan klik produk, ada reward voucher ongkir yang langsung masuk akun. Hampir gak ada yang tau ini.",
+        "9/ Sekarang cara STACK-nya. Gue biasanya belanja kebutuhan bulanan gini: Shopee pagi (dapet notif abandon cart), Tokopedia siang (seller bebas ongkir), Lazada malem abis nonton live. 3 platform, 0 rupiah ongkir.",
+        "10/ Ranking buat gue pribadi: Shopee masih juara konsistensi voucher ongkirnya. Tokopedia lebih worth buat elektronik karena harga lebih kompetitif. Lazada juara buat produk branded import.",
+        "11/ BONUS INSIGHT: Tanggal 23 tiap bulan itu magis buat Shopee (23.23 sale). Tanggal 25 Tokopedia sering ada promo payday. Lazada aktif di tanggal cantik kayak sekarang. Tandain di kalender lu.",
+        "12/ Satu hal yang sering bikin orang gagal dapet ongkir gratis: minimum belanja. Shopee biasanya 0-50rb, Tokopedia 50-100rb, Lazada tergantung voucher. Selalu baca syaratnya sebelum checkout.",
+        "13/ Kesimpulan: gak ada platform yang 100% menang di semua kategori. Tapi kalau lu mau ongkir gratis TIAP HARI, kombinasi ketiga platform ini jawabannya. Effort dikit, hasil lumayan banget.",
+        "14/ Kalau thread ini nambah insight buat lu, RT biar temen-temen lu yang suka bayar ongkir padahal gak perlu juga pada tau. Dan komen dong — ada tips ongkir gratis lain yang belum gue sebutin?"
+      ],
+      "imageQuery": "free shipping ecommerce platform comparison"
+    },
+    {
+      "id": 5,
+      "content": "Dana lagi bagi-bagi cashback 25% buat top up e-money hari ini. maksimal cashback 20rb tapi tetep lumayan kan. lumayan buat beli kopi bestie",
+      "type": "info",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "dana ewallet cashback promo"
+    },
+    {
+      "id": 6,
+      "content": "jujur deh: lu tim yang langsung checkout atau tim yang simpen dulu di wishlist sambil nunggu harga turun? gue tim ke-2 dan udah hemat jutaan tahun ini",
+      "type": "question",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "online shopping wishlist sale"
+    },
+    {
+      "id": 7,
+      "content": "Thread: Gue iseng lacak harga 1 produk yang sama di 5 platform berbeda selama 30 hari. Hasilnya ngebuat gue gak mau asal beli lagi seumur hidup.",
+      "type": "thread",
+      "estimatedEngagement": "viral",
+      "isThread": true,
+      "threadParts": [
+        "1/ Oke jadi bulan lalu gue niat banget beli earphone wireless. Sebelum beli, gue iseng track harga produk yang SAMA persis di 5 platform selama 30 hari penuh. Yang gue temuin bikin gue speechless.",
+        "2/ Produknya: earphone wireless merek lokal yang lagi viral, harga normalnya sekitar 350rb. Gue cek di Shopee, Tokopedia, Lazada, TikTok Shop, sama Blibli. Setiap hari gue screenshot harganya.",
+        "3/ MINGGU PERTAMA. Shopee: 349rb. Tokopedia: 355rb. Lazada: 339rb. TikTok Shop: 329rb. Blibli: 375rb. Gue hampir langsung beli di TikTok Shop. Untung gue sabar.",
+        "4/ MINGGU KEDUA. Shopee turun ke 299rb karena ada flash sale brand day. Tokopedia tetap 355rb. Lazada naik jadi 359rb (aneh banget ini). TikTok Shop stabil 329rb. Blibli mulai diskon ke 349rb.",
+        "5/ Nah di sini mulai seru. Gue notice pola: setiap ada event di satu platform, platform lain SERING ikutan turunin harga buat bersaing. Jadi tunggu satu platform sale, cek yang lain juga.",
+        "6/ MINGGU KETIGA. Ini yang paling bikin gue syok. TikTok Shop tiba-tiba harganya 249rb karena ada voucher seller yang bisa di-stack sama voucher platform. Turun 80rb dari minggu pertama.",
+        "7/ Tapi tunggu. Gue cek Shopee di hari yang sama: 279rb tapi ada cashback coin 15%. Artinya efektif gue bayar 237rb. Lebih murah dari TikTok Shop. Ini gila sih.",
+        "8/ MINGGU KEEMPAT alias hari ini. Lazada diam-diam kasih harga 259rb dengan gratis ongkir. Tokopedia akhirnya turun ke 289rb. Blibli masih paling mahal di 339rb. Blibli konsisten mahal bro.",
+        "9/ KESIMPULAN HARGA: dalam 30 hari, harga produk yang sama bisa beda sampai 138rb antar platform. Dan harga terendah gak selalu dari platform yang sama setiap harinya. Ini yang bikin tracking itu penting.",
+        "10/ POLA yang gue temuin: Shopee paling agresif diskon di tanggal cantik. TikTok Shop paling murah kalau ada live seller aktif. Lazada murah di akhir bulan. Tokopedia stabil tapi sering ada Tokopoints.",
+        "11/ Blibli? Honestly buat produk elektronik dan branded item, Blibli worth dicek karena garansi resmi lebih terjamin. Harga emang mahal tapi after-sales-nya beda level.",
+        "12/ Tips praktis dari eksperimen ini: pakai aplikasi pihak ketiga kayak Telunjuk atau Price Archive buat track harga otomatis. Lu gak harus screenshot tiap hari kayak gue yang kurang kerjaan ini.",
+        "13/ Dan satu insight terakhir yang paling penting: JANGAN pernah beli produk di hari pertama lu nemu. Tunggu minimal 3-7 hari. Pantau. Harga online itu dinamis banget, bisa turun kapan aja.",
+        "14/ Gue akhirnya beli di Shopee minggu ketiga dengan harga efektif 237rb. Hemat 112rb dari harga awal yang hampir gue bayar. Itu udah cukup buat makan siang 3 hari bro.",
+        "15/ Kalau lu pernah nyesel beli sesuatu trus besoknya harga turun, RT thread ini biar pada tau cara tracking harga yang bener. Dan share dong pengalaman lu beli barang trus nyesel di kolom reply!"
+      ],
+      "imageQuery": "price tracking ecommerce product comparison"
+    },
+    {
+      "id": 8,
+      "content": "OVO lagi ada promo transfer gratis dan cashback 10% buat pembayaran tagihan listrik hari ini. lumayan banget buat yang bayar bulanan. buruan sebelum kuotanya abis",
+      "type": "info",
+      "estimatedEngagement": "high",
+      "isThread": false,
+      "threadParts": [],
+      "imageQuery": "ovo ewallet bill payment cashback"
+    }
+  ]
+}
