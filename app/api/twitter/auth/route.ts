@@ -12,14 +12,14 @@ export async function GET(req: NextRequest) {
 
   const clientId = process.env.TWITTER_CLIENT_ID;
   if (!clientId) {
-    return NextResponse.redirect(`${origin}/connect?error=TWITTER_CLIENT_ID belum diisi di .env.local`);
+    return NextResponse.redirect(`${origin}/connect?error=TWITTER_CLIENT_ID belum diisi di environment variables`);
   }
 
   const codeVerifier = crypto.randomBytes(32).toString("base64url");
   const codeChallenge = crypto.createHash("sha256").update(codeVerifier).digest("base64url");
   const state = crypto.randomBytes(16).toString("hex");
 
-  savePKCE(state, { codeVerifier, accountId });
+  await savePKCE(state, { codeVerifier, accountId });
 
   const callbackUrl =
     process.env.TWITTER_CALLBACK_URL ?? `${origin}/api/twitter/callback`;

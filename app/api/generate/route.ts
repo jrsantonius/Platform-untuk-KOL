@@ -33,7 +33,6 @@ function extractAndParseJSON(raw: string): GeneratedTweet[] | null {
   try {
     return JSON.parse(jsonStr) as GeneratedTweet[];
   } catch {
-    // Last resort: try to parse with relaxed approach by extracting individual objects
     return null;
   }
 }
@@ -42,14 +41,14 @@ export async function POST(req: NextRequest) {
   try {
     const { accountId, date: dateParam } = await req.json();
 
-    const account = getAccount(accountId);
+    const account = await getAccount(accountId);
     if (!account) {
       return NextResponse.json({ error: "Account tidak ditemukan" }, { status: 404 });
     }
 
     if (!process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_API_KEY === "your-api-key-here") {
       return NextResponse.json(
-        { error: "API key belum diisi. Isi ANTHROPIC_API_KEY di file .env.local lalu restart server." },
+        { error: "API key belum diisi. Isi ANTHROPIC_API_KEY di environment variables." },
         { status: 401 }
       );
     }
@@ -71,7 +70,6 @@ export async function POST(req: NextRequest) {
     const tweets = extractAndParseJSON(rawText);
 
     if (!tweets || tweets.length === 0) {
-      // Log raw response for debugging
       console.error("[generate] Failed to parse JSON. Raw:", rawText.slice(0, 500));
       return NextResponse.json(
         { error: "AI menghasilkan format yang tidak valid. Coba generate ulang." },
@@ -86,7 +84,7 @@ export async function POST(req: NextRequest) {
       tweets,
     };
 
-    saveContent(content);
+    await saveContent(content);
 
     return NextResponse.json({ success: true, content });
   } catch (err: unknown) {
@@ -95,7 +93,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(
       {
         error: isAuth
-          ? "API key tidak valid. Cek ANTHROPIC_API_KEY di .env.local lalu restart server."
+          ? "API key tidak valid. Cek ANTHROPIC_API_KEY di environment variables."
           : `Gagal generate: ${msg}`,
       },
       { status: isAuth ? 401 : 500 }

@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
   const date = dateParam ?? format(new Date(), "yyyy-MM-dd");
   const baseUrl = new URL(req.url).origin;
 
-  const allAccounts = getAllAccounts();
+  const allAccounts = await getAllAccounts();
   const results = await Promise.allSettled(
     allAccounts.map((account) =>
       fetch(`${baseUrl}/api/generate`, {

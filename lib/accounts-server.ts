@@ -1,35 +1,23 @@
-// Server-only — uses fs/path. Do NOT import this from client components.
-import fs from "fs";
-import path from "path";
+// Server-only — uses Vercel KV. Do NOT import from client components.
+import { kv } from "@vercel/kv";
 import { DEFAULT_ACCOUNTS } from "./accounts";
 import type { Account } from "./accounts";
 
-const CUSTOM_ACCOUNTS_FILE = path.join(process.cwd(), "data", "custom-accounts.json");
-
-function ensureDataDir() {
-  const dir = path.join(process.cwd(), "data");
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+export async function loadCustomAccounts(): Promise<Account[]> {
+  const accounts = await kv.get<Account[]>("custom-accounts");
+  return accounts ?? [];
 }
 
-export function loadCustomAccounts(): Account[] {
-  ensureDataDir();
-  if (!fs.existsSync(CUSTOM_ACCOUNTS_FILE)) return [];
-  try {
-    return JSON.parse(fs.readFileSync(CUSTOM_ACCOUNTS_FILE, "utf-8")) as Account[];
-  } catch {
-    return [];
-  }
+export async function saveCustomAccounts(accounts: Account[]): Promise<void> {
+  await kv.set("custom-accounts", accounts);
 }
 
-export function saveCustomAccounts(accounts: Account[]): void {
-  ensureDataDir();
-  fs.writeFileSync(CUSTOM_ACCOUNTS_FILE, JSON.stringify(accounts, null, 2), "utf-8");
+export async function getAllAccounts(): Promise<Account[]> {
+  const custom = await loadCustomAccounts();
+  return [...DEFAULT_ACCOUNTS, ...custom];
 }
 
-export function getAllAccounts(): Account[] {
-  return [...DEFAULT_ACCOUNTS, ...loadCustomAccounts()];
-}
-
-export function getAccount(id: string): Account | undefined {
-  return getAllAccounts().find((a) => a.id === id);
+export async function getAccount(id: string): Promise<Account | undefined> {
+  const all = await getAllAccounts();
+  return all.find((a) => a.id === id);
 }

@@ -3,12 +3,13 @@ import {
   getAllAccounts,
   loadCustomAccounts,
   saveCustomAccounts,
-  getAccount,
 } from "@/lib/accounts-server";
 import type { Account } from "@/lib/accounts";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
-  const accounts = getAllAccounts();
+  const accounts = await getAllAccounts();
   return NextResponse.json({ accounts });
 }
 
@@ -20,7 +21,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Field wajib: id, username, displayName, niche" }, { status: 400 });
   }
 
-  const existing = getAllAccounts();
+  const existing = await getAllAccounts();
   if (existing.find((a) => a.id === id)) {
     return NextResponse.json({ error: "ID akun sudah ada" }, { status: 409 });
   }
@@ -37,9 +38,9 @@ export async function POST(req: NextRequest) {
     isCustom: true,
   };
 
-  const customs = loadCustomAccounts();
+  const customs = await loadCustomAccounts();
   customs.push(newAccount);
-  saveCustomAccounts(customs);
+  await saveCustomAccounts(customs);
 
   return NextResponse.json({ success: true, account: newAccount });
 }
@@ -50,13 +51,13 @@ export async function DELETE(req: NextRequest) {
 
   if (!id) return NextResponse.json({ error: "ID diperlukan" }, { status: 400 });
 
-  const customs = loadCustomAccounts();
+  const customs = await loadCustomAccounts();
   const filtered = customs.filter((a) => a.id !== id);
 
   if (filtered.length === customs.length) {
     return NextResponse.json({ error: "Akun tidak ditemukan atau bukan akun custom" }, { status: 404 });
   }
 
-  saveCustomAccounts(filtered);
+  await saveCustomAccounts(filtered);
   return NextResponse.json({ success: true });
 }

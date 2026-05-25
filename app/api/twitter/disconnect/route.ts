@@ -9,6 +9,6 @@ export async function DELETE(req: NextRequest) {
     return NextResponse.json({ error: "accountId required" }, { status: 400 });
   }
 
-  removeToken(accountId);
+  await removeToken(accountId);
   return NextResponse.json({ success: true });
 }

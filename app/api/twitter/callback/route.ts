@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.redirect(`${origin}/connect?error=Parameter tidak lengkap`);
   }
 
-  const pkce = getPKCE(state);
+  const pkce = await getPKCE(state);
   if (!pkce) {
     return NextResponse.redirect(`${origin}/connect?error=State tidak valid atau expired, coba lagi`);
   }
@@ -40,7 +40,7 @@ export async function GET(req: NextRequest) {
   });
 
   const tokenData = await tokenRes.json();
-  deletePKCE(state);
+  await deletePKCE(state);
 
   if (!tokenData.access_token) {
     const errMsg = tokenData.error_description ?? tokenData.error ?? "Gagal dapat token";
@@ -53,7 +53,7 @@ export async function GET(req: NextRequest) {
   });
   const userData = await userRes.json();
 
-  saveToken(pkce.accountId, {
+  await saveToken(pkce.accountId, {
     accessToken: tokenData.access_token,
     refreshToken: tokenData.refresh_token ?? "",
     expiresAt: Date.now() + (tokenData.expires_in ?? 7200) * 1000,

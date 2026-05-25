@@ -1,13 +1,6 @@
-import { NextRequest, NextResponse } from "next/server";
-import { startScheduler } from "@/lib/scheduler";
+import { NextResponse } from "next/server";
 
-let initialized = false;
-
-export async function GET(req: NextRequest) {
-  if (!initialized) {
-    const baseUrl = new URL(req.url).origin;
-    startScheduler(baseUrl);
-    initialized = true;
-  }
-  return NextResponse.json({ status: "ok" });
+// Scheduler now handled by Vercel Cron (vercel.json)
+export async function GET() {
+  return NextResponse.json({ status: "ok", scheduler: "vercel-cron" });
 }

@@ -4,9 +4,8 @@ import { loadTokens } from "@/lib/twitter-tokens";
 export const dynamic = "force-dynamic";
 
 export async function GET() {
-  const tokens = loadTokens();
+  const tokens = await loadTokens();
 
-  // Return a map of accountId → { connected, username, userId, expiresAt }
   const status: Record<string, { connected: boolean; username: string; userId: string; expiresAt: number }> = {};
 
   for (const [accountId, token] of Object.entries(tokens)) {

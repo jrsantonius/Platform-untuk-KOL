@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getToken, saveToken } from "@/lib/twitter-tokens";
 
 async function refreshToken(accountId: string) {
-  const token = getToken(accountId);
+  const token = await getToken(accountId);
   if (!token?.refreshToken) return null;
 
   const res = await fetch("https://api.twitter.com/2/oauth2/token", {
@@ -28,12 +28,12 @@ async function refreshToken(accountId: string) {
     refreshToken: data.refresh_token ?? token.refreshToken,
     expiresAt: Date.now() + (data.expires_in ?? 7200) * 1000,
   };
-  saveToken(accountId, updated);
+  await saveToken(accountId, updated);
   return updated;
 }
 
 async function getValidToken(accountId: string) {
-  const token = getToken(accountId);
+  const token = await getToken(accountId);
   if (!token) return null;
   // Refresh if expires within 5 minutes
   if (token.expiresAt - Date.now() < 5 * 60 * 1000) {
