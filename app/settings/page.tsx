@@ -340,7 +340,7 @@ export default function SettingsPage() {
             <div className="space-y-3">
               {[
                 { label: "Model AI", value: "Claude Sonnet 4.6" },
-                { label: "Konten per akun/hari", value: "8 konten (6 tweet + 2 thread panjang)" },
+                { label: "Konten per akun/hari", value: "5 konten (4 tweet + 1 thread panjang)" },
                 { label: "Gambar per konten", value: "Maks 4 foto (via Pexels API)" },
                 { label: "Schedule generate", value: "00:00 WIB otomatis" },
                 { label: "Bahasa konten", value: "Bahasa Indonesia gaul, tanpa hashtag" },

@@ -93,6 +93,16 @@ export const DEFAULT_ACCOUNTS: Account[] = [
     emoji: "🚗",
     description: "Otomotif & kendaraan",
   },
+  {
+    id: "txtdarirumah",
+    username: "@txtdarirumah",
+    displayName: "txtdari rumah",
+    niche: "rumah",
+    color: "#14b8a6",
+    bgColor: "#f0fdfa",
+    emoji: "🏠",
+    description: "Tips & inspirasi rumah",
+  },
 ];
 
 export const ACCOUNTS = DEFAULT_ACCOUNTS;

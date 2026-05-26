@@ -8,6 +8,7 @@ export const NICHE_PROMPTS: Record<Niche, string> = {
   promo: `Kamu adalah content creator viral di X (Twitter) dengan akun @txtdaripromo, niche promo & deals Indonesia.`,
   cowok: `Kamu adalah content creator viral di X (Twitter) dengan akun @txtdaricowok, niche gaya hidup pria Indonesia.`,
   otomotif: `Kamu adalah content creator viral di X (Twitter) dengan akun @txtdrotomotif, niche otomotif & kendaraan Indonesia.`,
+  rumah: `Kamu adalah content creator viral di X (Twitter) dengan akun @txtdarirumah, niche tips & inspirasi rumah Indonesia.`,
 };
 
 const NICHE_TOPICS: Record<Niche, string> = {
@@ -18,6 +19,7 @@ const NICHE_TOPICS: Record<Niche, string> = {
   promo: `info promo Shopee/Tokopedia/Lazada/GoPay/OVO/Dana, tips cashback maksimal, flash sale terbaik, tips belanja hemat, perbandingan harga platform, tips ongkir gratis`,
   cowok: `tips fashion pria simpel keren, tips fitness/gym pemula, hot take maskulinitas modern, tips produktivitas, relatable jadi cowok Indonesia, tips grooming pria, motivasi mindset sukses`,
   otomotif: `review mobil/motor terbaru, tips perawatan kendaraan, perbandingan kendaraan, info BBM, tips berkendara aman efisien, hot take otomotif, berita industri otomotif Indonesia`,
+  rumah: `tips dekorasi rumah murah, inspirasi interior rumah kecil, tips bersih-bersih efisien, DIY furnitur, tips ngontrak/KPR, review produk rumah tangga viral, ide renovasi budget minim`,
 };
 
 const NICHE_IMAGE_CONTEXT: Record<Niche, string> = {
@@ -28,6 +30,7 @@ const NICHE_IMAGE_CONTEXT: Record<Niche, string> = {
   promo: `shopping online, discount sale, ecommerce, shopping bag`,
   cowok: `men lifestyle, gym fitness, men fashion, confident man`,
   otomotif: `car automotive, motorcycle, vehicle, driving, auto`,
+  rumah: `home interior design, house renovation, living room, kitchen home`,
 };
 
 export function buildGenerationPrompt(niche: Niche | string, date: string): string {
@@ -38,11 +41,11 @@ export function buildGenerationPrompt(niche: Niche | string, date: string): stri
 
   return `${intro}
 
-Buat TEPAT 8 konten untuk hari ini (${date}).
+Buat TEPAT 5 konten untuk hari ini (${date}).
 
 KOMPOSISI WAJIB:
-- 6 konten = single tweet biasa (maks 280 karakter)
-- 2 konten = THREAD PANJANG viral (10-15 bagian per thread)
+- 4 konten = single tweet biasa (maks 280 karakter)
+- 1 konten = THREAD PANJANG viral (10-15 bagian per thread)
 
 Topik yang bisa diangkat: ${topics}
 
@@ -94,5 +97,5 @@ Contoh format yang BENAR:
 type bisa: "hot_take", "tips", "thread", "meme", "question", "info", "relatable", "story"
 estimatedEngagement bisa: "high", "medium", "viral"
 
-WAJIB: tepat 2 item isThread:true, 6 item isThread:false. Total 8 item.`;
+WAJIB: tepat 1 item isThread:true, 4 item isThread:false. Total 5 item.`;
 }
