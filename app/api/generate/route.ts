@@ -3,6 +3,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { getAccount } from "@/lib/accounts-server";
 import { buildGenerationPrompt } from "@/lib/prompts";
 import { saveContent } from "@/lib/storage";
+import { getAffiliateLinks } from "@/lib/affiliate";
 import type { GeneratedTweet } from "@/lib/types";
 import { format } from "date-fns";
 
@@ -54,7 +55,8 @@ export async function POST(req: NextRequest) {
     }
 
     const date = dateParam ?? format(new Date(), "yyyy-MM-dd");
-    const prompt = buildGenerationPrompt(account.niche, date);
+    const affiliateLinks = await getAffiliateLinks(accountId);
+    const prompt = buildGenerationPrompt(account.niche, date, affiliateLinks);
 
     const message = await client.messages.create({
       model: "claude-sonnet-4-6",

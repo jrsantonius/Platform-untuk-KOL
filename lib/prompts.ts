@@ -33,21 +33,44 @@ const NICHE_IMAGE_CONTEXT: Record<Niche, string> = {
   rumah: `home interior design, house renovation, living room, kitchen home`,
 };
 
-export function buildGenerationPrompt(niche: Niche | string, date: string): string {
+export function buildGenerationPrompt(niche: Niche | string, date: string, affiliateLinks: { label: string; url: string }[] = []): string {
   const nicheKey = niche as Niche;
   const intro = NICHE_PROMPTS[nicheKey] ?? `Kamu adalah content creator viral di X (Twitter) niche ${niche}.`;
   const topics = NICHE_TOPICS[nicheKey] ?? niche;
   const imageCtx = NICHE_IMAGE_CONTEXT[nicheKey] ?? niche;
 
+  const hasAffiliate = affiliateLinks.length > 0;
+  const totalContent = hasAffiliate ? 7 : 5;
+  const affiliateSection = hasAffiliate ? `- 2 konten = MINI THREAD AFFILIATE SHOPEE (tepat 2 bagian per thread)` : "";
+  const affiliateLinkList = hasAffiliate
+    ? `\nLINK AFFILIATE YANG TERSEDIA (gunakan TEPAT 2, masing-masing untuk 1 konten affiliate):\n${affiliateLinks.map((l, i) => `${i + 1}. ${l.label}: ${l.url}`).join("\n")}`
+    : "";
+  const affiliateRule = hasAffiliate ? `\n9. Untuk konten affiliate: tweet pertama HARUS soft-selling natural (jangan terkesan jualan), ceritakan masalah/kebutuhan yang relate dulu, lalu tweet kedua berisi link Shopee dengan caption singkat yang mendorong klik. WAJIB sertakan link yang diberikan persis apa adanya di threadParts[0].` : "";
+  const affiliateExample = hasAffiliate ? `,
+  {
+    "id": 6,
+    "content": "Jujur gue udah lama nyari produk yang bisa solve masalah ini, dan akhirnya nemu juga...",
+    "type": "affiliate",
+    "estimatedEngagement": "high",
+    "isThread": true,
+    "threadParts": [
+      "Ini dia produknya, udah gue pake sendiri dan worth it banget. Cek di sini ya: https://shopee.co.id/affiliatelink"
+    ],
+    "imageQuery": "relevant english keywords"
+  }` : "";
+  const affiliateWajib = hasAffiliate ? `, tepat 2 item isThread:true dengan type 'affiliate'` : "";
+
   return `${intro}
 
-Buat TEPAT 5 konten untuk hari ini (${date}).
+Buat TEPAT ${totalContent} konten untuk hari ini (${date}).
 
 KOMPOSISI WAJIB:
 - 4 konten = single tweet biasa (maks 280 karakter)
 - 1 konten = THREAD PANJANG viral (10-15 bagian per thread)
+${affiliateSection}
 
 Topik yang bisa diangkat: ${topics}
+${affiliateLinkList}
 
 ATURAN KETAT:
 1. Bahasa gaul Indonesia yang natural (lu/gue/bro/bestie/dll)
@@ -57,7 +80,7 @@ ATURAN KETAT:
 5. Hook kalimat pertama harus KUAT dan bikin penasaran/relate
 6. Konten PROVOKATIF tapi tidak SARA/ofensif — tujuannya banyak reply & retweet
 7. Thread harus ada twist, insight menarik, atau storytelling yang bikin orang baca sampai habis
-8. Akhiri thread dengan CTA (call to action) yang engaging
+8. Akhiri thread dengan CTA (call to action) yang engaging${affiliateRule}
 
 FORMAT OUTPUT — kembalikan HANYA valid JSON array, tidak ada teks lain sebelum atau sesudah JSON.
 
@@ -91,11 +114,11 @@ Contoh format yang BENAR:
       "10/ Penutup dengan CTA yang kuat"
     ],
     "imageQuery": "relevant english keywords"
-  }
+  }${affiliateExample}
 ]
 
-type bisa: "hot_take", "tips", "thread", "meme", "question", "info", "relatable", "story"
+type bisa: "hot_take", "tips", "thread", "meme", "question", "info", "relatable", "story", "affiliate"
 estimatedEngagement bisa: "high", "medium", "viral"
 
-WAJIB: tepat 1 item isThread:true, 4 item isThread:false. Total 5 item.`;
+WAJIB: tepat 1 item type 'thread' isThread:true dengan 10-15 threadParts, 4 item isThread:false${affiliateWajib}. Total ${totalContent} item.`;
 }

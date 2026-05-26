@@ -6,6 +6,7 @@ import { use, useState, useEffect, useCallback } from "react";
 import Sidebar from "@/components/Sidebar";
 import ContentCard from "@/components/ContentCard";
 import ThreadCard from "@/components/ThreadCard";
+import AffiliateManager from "@/components/AffiliateManager";
 import type { Account } from "@/lib/accounts";
 import type { DailyContent } from "@/lib/types";
 import { format } from "date-fns";
@@ -185,10 +186,15 @@ export default function AccountPage({
           </div>
         </div>
 
+        {/* Affiliate Manager */}
+        <div className="mb-6">
+          <AffiliateManager accountId={accountId} accentColor={account.color} />
+        </div>
+
         {/* Content Grid */}
         {generating ? (
           <div className="grid grid-cols-2 gap-4">
-            {Array.from({ length: 8 }).map((_, i) => (
+            {Array.from({ length: 7 }).map((_, i) => (
               <div key={i} className="skeleton rounded-2xl h-40" />
             ))}
           </div>
@@ -212,7 +218,7 @@ export default function AccountPage({
             </div>
             <h3 className="text-slate-700 font-semibold mb-1">Belum ada konten hari ini</h3>
             <p className="text-slate-400 text-sm mb-5">
-              Klik Generate untuk membuat 8 tweet viral untuk akun ini
+              Klik Generate untuk membuat konten viral untuk akun ini
             </p>
             <button
               onClick={handleGenerate}
