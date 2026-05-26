@@ -5,13 +5,12 @@ import type { GeneratedTweet } from "@/lib/types";
 import { Copy, Check, ChevronDown, ChevronUp, Hash } from "lucide-react";
 import { clsx } from "clsx";
 import ImageSection from "./ImageSection";
-import PostButton from "./PostButton";
 
 interface ThreadCardProps {
   tweet: GeneratedTweet;
   index: number;
   accentColor: string;
-  accountId: string;
+  accountId?: string;
 }
 
 export default function ThreadCard({ tweet, index, accentColor, accountId }: ThreadCardProps) {
@@ -71,15 +70,7 @@ export default function ThreadCard({ tweet, index, accentColor, accountId }: Thr
         {/* Cover image for thread */}
         <ImageSection imageQuery={tweet.imageQuery} maxImages={2} />
 
-        {/* Post thread button */}
-        <div className="mt-3 pt-3 border-t border-slate-100">
-          <PostButton
-            accountId={accountId}
-            content={tweet.content}
-            isThread
-            threadParts={tweet.threadParts}
-          />
-        </div>
+
       </div>
 
       {/* Expand/collapse */}

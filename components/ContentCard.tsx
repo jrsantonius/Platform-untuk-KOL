@@ -5,7 +5,6 @@ import type { GeneratedTweet } from "@/lib/types";
 import { Copy, Check, TrendingUp, Zap, MessageCircle, Info, Heart, Star } from "lucide-react";
 import { clsx } from "clsx";
 import ImageSection from "./ImageSection";
-import PostButton from "./PostButton";
 
 const TYPE_CONFIG: Record<string, { label: string; icon: React.ReactNode; color: string }> = {
   hot_take: { label: "Hot Take", icon: <Zap size={10} />, color: "bg-orange-100 text-orange-600" },
@@ -28,7 +27,7 @@ interface ContentCardProps {
   tweet: GeneratedTweet;
   index: number;
   accentColor: string;
-  accountId: string;
+  accountId?: string;
 }
 
 export default function ContentCard({ tweet, index, accentColor, accountId }: ContentCardProps) {
@@ -92,10 +91,7 @@ export default function ContentCard({ tweet, index, accentColor, accountId }: Co
         </span>
       </div>
 
-      {/* Post to X */}
-      <div className="mt-3 pt-3 border-t border-slate-50">
-        <PostButton accountId={accountId} content={tweet.content} compact />
-      </div>
+
     </div>
   );
 }

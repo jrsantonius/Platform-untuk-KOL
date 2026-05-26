@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Account } from "@/lib/accounts";
-import { LayoutDashboard, Settings, Zap, Calendar, Link2 } from "lucide-react";
+import { LayoutDashboard, Settings, Zap, Calendar } from "lucide-react";
 import { clsx } from "clsx";
 import { useEffect, useState } from "react";
 
@@ -37,7 +37,6 @@ export default function Sidebar() {
       <nav className="flex-1 px-3 py-4 overflow-y-auto scrollbar-thin">
         <div className="mb-5">
           <SidebarLink href="/" icon={<LayoutDashboard size={15} />} label="Dashboard" active={pathname === "/"} />
-          <SidebarLink href="/connect" icon={<Link2 size={15} />} label="Koneksi X" active={pathname === "/connect"} />
           <SidebarLink href="/schedule" icon={<Calendar size={15} />} label="Jadwal & Otomasi" active={pathname === "/schedule"} />
           <SidebarLink href="/settings" icon={<Settings size={15} />} label="Pengaturan" active={pathname === "/settings"} />
         </div>
