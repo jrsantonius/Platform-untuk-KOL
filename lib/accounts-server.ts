@@ -1,15 +1,15 @@
-// Server-only — uses Vercel KV. Do NOT import from client components.
-import { kv } from "@vercel/kv";
+// Server-only. Do NOT import from client components.
+import { redis } from "./redis";
 import { DEFAULT_ACCOUNTS } from "./accounts";
 import type { Account } from "./accounts";
 
 export async function loadCustomAccounts(): Promise<Account[]> {
-  const accounts = await kv.get<Account[]>("custom-accounts");
+  const accounts = await redis.get<Account[]>("custom-accounts");
   return accounts ?? [];
 }
 
 export async function saveCustomAccounts(accounts: Account[]): Promise<void> {
-  await kv.set("custom-accounts", accounts);
+  await redis.set("custom-accounts", accounts);
 }
 
 export async function getAllAccounts(): Promise<Account[]> {
